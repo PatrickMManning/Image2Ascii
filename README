@@ -1,0 +1,12 @@
+This is a simple command line Java program used to convert images to Ascii.
+
+To use, compile both .java files in the src folder:
+
+  javac Img2Ascii.java
+  javac CommandLineImg2AsciiWrapper.java
+  
+Then run with the following command:
+
+  java CommandLineImg2AsciiWrapper path/to/image.jpg path/to/output.txt
+
+N.B. The output file should be viewed in a monospace font to preserve the spacial relation of pixels in the original image.
